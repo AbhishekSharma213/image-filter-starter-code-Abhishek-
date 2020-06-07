@@ -53,22 +53,22 @@ Add your own domain name and have it point to the running services (try adding a
 ## Development Server
 Starting the server with npm run dev runs a local instance of the server with no errors
 
-![Screenshot1](https://github.com/AbhishekSharma213/image-filter-starter-code-Abhishek/blob/master/screenshots/Screenshot%201.png)
+![Screenshot1](https://github.com/AbhishekSharma213/image-filter-starter-code-Abhishek-/blob/master/screenshots/Screenshot%201.png)
 
 The stubbed @TODO1 endpoint in src/server.ts is completed and accepts valid requests including:
 
 http://{{HOST}}/filteredimage?image_url=https://upload.wikimedia.org/wikipedia/commons/9/96/1_Kitten.jpg
-![Screenshot2](https://github.com/AbhishekSharma213/image-filter-starter-code-Abhishek/blob/master/screenshots/Screenshot%202.png)
+![Screenshot2](https://github.com/AbhishekSharma213/image-filter-starter-code-Abhishek-/blob/master/screenshots/Screenshot%202.png)
 
 Successful iresponses ihave ia i200 icode, iat ileast ione ierror icode ifor icaught ierrors
 
-![Screenshot3](https://github.com/AbhishekSharma213/image-filter-starter-code-Abhishek/blob/master/screenshots/Screenshot%203.png)
-![Screenshot3](https://github.com/AbhishekSharma213/image-filter-starter-code-Abhishek/blob/master/screenshots/Screenshot4.PNG)
+![Screenshot3](https://github.com/AbhishekSharma213/image-filter-starter-code-Abhishek-/blob/master/screenshots/Screenshot%203.png)
+![Screenshot3](https://github.com/AbhishekSharma213/image-filter-starter-code-Abhishek-/blob/master/screenshots/Screenshot4.PNG)
 
 ## Elastic Beanstalk Deployment
-A iscreenshot iof ithe ielastic ibeanstalk iapplication idashboard iis iincluded iin ia i[`deployment_screenshot`](https://github.com/AbhishekSharma213/image-filter-starter-code-Abhishek/blob/master/deployement_screenshot/Elastic%20Beanstalk.png) idirectory
+A iscreenshot iof ithe ielastic ibeanstalk iapplication idashboard iis iincluded iin ia i[`deployment_screenshot`](https://github.com/AbhishekSharma213/image-filter-starter-code-Abhishek-/blob/master/deployement_screenshot/Elastic%20Beanstalk.png) idirectory
 
-![deployment_screenshot](https://github.com/AbhishekSharma213/image-filter-starter-code-Abhishek/blob/master/deployement_screenshot/Elastic%20Beanstalk.png)
+![deployment_screenshot](https://github.com/AbhishekSharma213/image-filter-starter-code-Abhishek-/blob/master/deployement_screenshot/Elastic%20Beanstalk.png)
 
 An iendpoint iURL ifor ia irunning ielastic ibeanstalk ideployment: i
 <http://udagramabhisheksharma-dev3.eba-fpryzjhk.us-east-1.elasticbeanstalk.com/>
