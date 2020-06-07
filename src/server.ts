@@ -17,7 +17,7 @@ import {filterImageFromURL, deleteLocalFiles} from './util/util';
       const filteredimagepath = await filterImageFromURL(i);
       // res.send(result);
       res.status(200).sendFile(filteredimagepath, {}, (err) => {
-          err ? res.status(500).send({ message: 'Error while transfering file...' }) : deleteLocalFiles([filteredimagepath]);
+          err ? res.status(500).send({ message: 'Error' }) : deleteLocalFiles([filteredimagepath]);
         });
   });
   applica.get( "/", async ( req, res ) => {
@@ -25,6 +25,6 @@ import {filterImageFromURL, deleteLocalFiles} from './util/util';
   } );
   applica.listen( portno, () => {
       console.log( `server running http://localhost:${ portno }` );
-      console.log( `press CTRL+C to stop server` );
+      console.log( `press CTRL+C if want to stop server` );
   } );
 })();
